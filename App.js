@@ -1,11 +1,17 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, ScrollView } from 'react-native';
 
 export default function App() {
+  const produtos = [
+    { 'id': 1, 'nome': 'Notebook' },
+    { 'id': 2, 'nome': 'Memoria'  },
+    { 'id': 3, 'nome': 'Monitor'  },
+    { 'id': 4, 'nome': 'Teclado'  },
+  ]
+
+
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+
     </View>
   );
 }
