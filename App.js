@@ -46,7 +46,7 @@ export default function App() {
         )}
 
         renderSectionHeader={({ section }) => (
-          <Text>{section.title}</Text>
+          <Text style={{ fontSize: 20, fontWeight: 'bold' }}>{section.title}</Text>
         )} />
     </View>
   );
